@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04FD3F8E15EDE5220026E697 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FD3F8D15EDE5220026E697 /* Foundation.framework */; };
+		04FD3F9315EDE5220026E697 /* TQGeometry.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 04FD3F9215EDE5220026E697 /* TQGeometry.h */; };
+		04FD3F9515EDE5220026E697 /* TQGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD3F9415EDE5220026E697 /* TQGeometry.m */; };
+		04FD3F9D15EDE5230026E697 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FD3F9C15EDE5220026E697 /* SenTestingKit.framework */; };
+		04FD3F9F15EDE5230026E697 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FD3F9E15EDE5230026E697 /* UIKit.framework */; };
+		04FD3FA015EDE5230026E697 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FD3F8D15EDE5220026E697 /* Foundation.framework */; };
+		04FD3FA315EDE5230026E697 /* libTQGeometry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FD3F8A15EDE5220026E697 /* libTQGeometry.a */; };
+		04FD3FA915EDE5230026E697 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04FD3FA715EDE5230026E697 /* InfoPlist.strings */; };
+		04FD3FAC15EDE5230026E697 /* TQGeometryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD3FAB15EDE5230026E697 /* TQGeometryTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04FD3FA115EDE5230026E697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FD3F8115EDE5220026E697 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04FD3F8915EDE5220026E697;
+			remoteInfo = TQGeometry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04FD3F8815EDE5220026E697 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				04FD3F9315EDE5220026E697 /* TQGeometry.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04FD3F8A15EDE5220026E697 /* libTQGeometry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTQGeometry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FD3F8D15EDE5220026E697 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04FD3F9115EDE5220026E697 /* TQGeometry-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TQGeometry-Prefix.pch"; sourceTree = "<group>"; };
+		04FD3F9215EDE5220026E697 /* TQGeometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TQGeometry.h; sourceTree = "<group>"; };
+		04FD3F9415EDE5220026E697 /* TQGeometry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TQGeometry.m; sourceTree = "<group>"; };
+		04FD3F9B15EDE5220026E697 /* TQGeometryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TQGeometryTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FD3F9C15EDE5220026E697 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		04FD3F9E15EDE5230026E697 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		04FD3FA615EDE5230026E697 /* TQGeometryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TQGeometryTests-Info.plist"; sourceTree = "<group>"; };
+		04FD3FA815EDE5230026E697 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04FD3FAA15EDE5230026E697 /* TQGeometryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TQGeometryTests.h; sourceTree = "<group>"; };
+		04FD3FAB15EDE5230026E697 /* TQGeometryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TQGeometryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04FD3F8715EDE5220026E697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FD3F8E15EDE5220026E697 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FD3F9715EDE5220026E697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FD3F9D15EDE5230026E697 /* SenTestingKit.framework in Frameworks */,
+				04FD3F9F15EDE5230026E697 /* UIKit.framework in Frameworks */,
+				04FD3FA015EDE5230026E697 /* Foundation.framework in Frameworks */,
+				04FD3FA315EDE5230026E697 /* libTQGeometry.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04FD3F7F15EDE5220026E697 = {
+			isa = PBXGroup;
+			children = (
+				04FD3F8F15EDE5220026E697 /* TQGeometry */,
+				04FD3FA415EDE5230026E697 /* TQGeometryTests */,
+				04FD3F8C15EDE5220026E697 /* Frameworks */,
+				04FD3F8B15EDE5220026E697 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04FD3F8B15EDE5220026E697 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04FD3F8A15EDE5220026E697 /* libTQGeometry.a */,
+				04FD3F9B15EDE5220026E697 /* TQGeometryTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04FD3F8C15EDE5220026E697 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04FD3F8D15EDE5220026E697 /* Foundation.framework */,
+				04FD3F9C15EDE5220026E697 /* SenTestingKit.framework */,
+				04FD3F9E15EDE5230026E697 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04FD3F8F15EDE5220026E697 /* TQGeometry */ = {
+			isa = PBXGroup;
+			children = (
+				04FD3F9215EDE5220026E697 /* TQGeometry.h */,
+				04FD3F9415EDE5220026E697 /* TQGeometry.m */,
+				04FD3F9015EDE5220026E697 /* Supporting Files */,
+			);
+			path = TQGeometry;
+			sourceTree = "<group>";
+		};
+		04FD3F9015EDE5220026E697 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04FD3F9115EDE5220026E697 /* TQGeometry-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04FD3FA415EDE5230026E697 /* TQGeometryTests */ = {
+			isa = PBXGroup;
+			children = (
+				04FD3FAA15EDE5230026E697 /* TQGeometryTests.h */,
+				04FD3FAB15EDE5230026E697 /* TQGeometryTests.m */,
+				04FD3FA515EDE5230026E697 /* Supporting Files */,
+			);
+			path = TQGeometryTests;
+			sourceTree = "<group>";
+		};
+		04FD3FA515EDE5230026E697 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04FD3FA615EDE5230026E697 /* TQGeometryTests-Info.plist */,
+				04FD3FA715EDE5230026E697 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04FD3F8915EDE5220026E697 /* TQGeometry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FD3FAF15EDE5230026E697 /* Build configuration list for PBXNativeTarget "TQGeometry" */;
+			buildPhases = (
+				04FD3F8615EDE5220026E697 /* Sources */,
+				04FD3F8715EDE5220026E697 /* Frameworks */,
+				04FD3F8815EDE5220026E697 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TQGeometry;
+			productName = TQGeometry;
+			productReference = 04FD3F8A15EDE5220026E697 /* libTQGeometry.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		04FD3F9A15EDE5220026E697 /* TQGeometryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FD3FB215EDE5230026E697 /* Build configuration list for PBXNativeTarget "TQGeometryTests" */;
+			buildPhases = (
+				04FD3F9615EDE5220026E697 /* Sources */,
+				04FD3F9715EDE5220026E697 /* Frameworks */,
+				04FD3F9815EDE5220026E697 /* Resources */,
+				04FD3F9915EDE5220026E697 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04FD3FA215EDE5230026E697 /* PBXTargetDependency */,
+			);
+			name = TQGeometryTests;
+			productName = TQGeometryTests;
+			productReference = 04FD3F9B15EDE5220026E697 /* TQGeometryTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04FD3F8115EDE5220026E697 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = toqoz;
+			};
+			buildConfigurationList = 04FD3F8415EDE5220026E697 /* Build configuration list for PBXProject "TQGeometry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04FD3F7F15EDE5220026E697;
+			productRefGroup = 04FD3F8B15EDE5220026E697 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04FD3F8915EDE5220026E697 /* TQGeometry */,
+				04FD3F9A15EDE5220026E697 /* TQGeometryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04FD3F9815EDE5220026E697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FD3FA915EDE5230026E697 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04FD3F9915EDE5220026E697 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04FD3F8615EDE5220026E697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FD3F9515EDE5220026E697 /* TQGeometry.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FD3F9615EDE5220026E697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FD3FAC15EDE5230026E697 /* TQGeometryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04FD3FA215EDE5230026E697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04FD3F8915EDE5220026E697 /* TQGeometry */;
+			targetProxy = 04FD3FA115EDE5230026E697 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04FD3FA715EDE5230026E697 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FD3FA815EDE5230026E697 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04FD3FAD15EDE5230026E697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04FD3FAE15EDE5230026E697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04FD3FB015EDE5230026E697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TQGeometry.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TQGeometry/TQGeometry-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		04FD3FB115EDE5230026E697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TQGeometry.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TQGeometry/TQGeometry-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		04FD3FB315EDE5230026E697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TQGeometry/TQGeometry-Prefix.pch";
+				INFOPLIST_FILE = "TQGeometryTests/TQGeometryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		04FD3FB415EDE5230026E697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TQGeometry/TQGeometry-Prefix.pch";
+				INFOPLIST_FILE = "TQGeometryTests/TQGeometryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04FD3F8415EDE5220026E697 /* Build configuration list for PBXProject "TQGeometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FD3FAD15EDE5230026E697 /* Debug */,
+				04FD3FAE15EDE5230026E697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FD3FAF15EDE5230026E697 /* Build configuration list for PBXNativeTarget "TQGeometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FD3FB015EDE5230026E697 /* Debug */,
+				04FD3FB115EDE5230026E697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04FD3FB215EDE5230026E697 /* Build configuration list for PBXNativeTarget "TQGeometryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FD3FB315EDE5230026E697 /* Debug */,
+				04FD3FB415EDE5230026E697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04FD3F8115EDE5220026E697 /* Project object */;
+}
