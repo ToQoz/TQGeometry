@@ -7,6 +7,7 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
+#import <CoreGraphics/CoreGraphics.h>
 
 @interface TQGeometryTests : SenTestCase
 

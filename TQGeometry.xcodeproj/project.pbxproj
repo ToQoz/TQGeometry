@@ -16,6 +16,8 @@
 		04FD3FA315EDE5230026E697 /* libTQGeometry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FD3F8A15EDE5220026E697 /* libTQGeometry.a */; };
 		04FD3FA915EDE5230026E697 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04FD3FA715EDE5230026E697 /* InfoPlist.strings */; };
 		04FD3FAC15EDE5230026E697 /* TQGeometryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD3FAB15EDE5230026E697 /* TQGeometryTests.m */; };
+		04FD3FBA15EDF8650026E697 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FD3FB915EDF8650026E697 /* CoreGraphics.framework */; };
+		04FD3FBB15EE05E10026E697 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FD3FB915EDF8650026E697 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,7 @@
 		04FD3FA815EDE5230026E697 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04FD3FAA15EDE5230026E697 /* TQGeometryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TQGeometryTests.h; sourceTree = "<group>"; };
 		04FD3FAB15EDE5230026E697 /* TQGeometryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TQGeometryTests.m; sourceTree = "<group>"; };
+		04FD3FB915EDF8650026E697 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FD3FBB15EE05E10026E697 /* CoreGraphics.framework in Frameworks */,
 				04FD3F8E15EDE5220026E697 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FD3FBA15EDF8650026E697 /* CoreGraphics.framework in Frameworks */,
 				04FD3F9D15EDE5230026E697 /* SenTestingKit.framework in Frameworks */,
 				04FD3F9F15EDE5230026E697 /* UIKit.framework in Frameworks */,
 				04FD3FA015EDE5230026E697 /* Foundation.framework in Frameworks */,
@@ -101,6 +106,7 @@
 		04FD3F8C15EDE5220026E697 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04FD3FB915EDF8650026E697 /* CoreGraphics.framework */,
 				04FD3F8D15EDE5220026E697 /* Foundation.framework */,
 				04FD3F9C15EDE5220026E697 /* SenTestingKit.framework */,
 				04FD3F9E15EDE5230026E697 /* UIKit.framework */,

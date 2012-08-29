@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreGraphics/CoreGraphics.h>
 
-@interface TQGeometry : NSObject
-
-@end
+extern bool TQPolygonContainPoint(CGPoint *polygon, int N, CGPoint p);
+extern CGPoint TQRotatedPoint(float degrees, CGPoint point, CGPoint center);
+extern float TQDegreeToRadian(float degrees);
+extern float TQRadianToDegree(float radians);
